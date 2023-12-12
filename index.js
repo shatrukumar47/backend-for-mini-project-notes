@@ -11,7 +11,7 @@ app.use("/users", userRouter)
 app.use("/notes", noteRouter)
 
 app.get("/", (req, res)=>{
-    res.send("Welcome to Full Stack - CRUD")
+    res.send("Welcome to Notes Backend")
 })
 
 app.listen(8080, async()=>{
